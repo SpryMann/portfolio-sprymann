@@ -1,0 +1,77 @@
+// main ../style.less
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    margin-bottom: 2.8rem;
+}
+
+.portfolio__col {
+    flex-basis: 33.33333%;
+    padding: 1rem;
+}
+
+.portfolio__item {
+    overflow: hidden;
+    box-shadow: 0 0 4px fade(#000, 25%);
+    border-radius: 10px;
+
+    transition: box-shadow .3s linear;
+
+    &:hover {
+        box-shadow: 0 0 25px fade(#000, 25%);
+    }
+}
+
+.portfolio__item-content {
+    padding: 1rem 0.8rem;
+}
+
+.portfolio__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio__cat {
+    font-size: 12px;
+    color: @black;
+    line-height: 1.25;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio__title {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 16px;
+    color: @black;
+    font-weight: 700;
+    line-height: 0.938;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

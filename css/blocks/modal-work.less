@@ -1,0 +1,164 @@
+// main ../style.less
+
+.modal-work {
+    display: flex;
+    max-height: 780px;
+}
+
+.modal-work__preview {
+    width: 65%;
+    position: relative;
+    overflow: hidden;
+}
+
+.modal-work__photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.modal-work__content {
+    width: 35%;
+    padding: 3.4rem 6.6rem 1rem 1.73rem;
+    position: relative;
+}
+
+.modal-work__header {
+    margin-bottom: 33px;
+}
+
+.modal-work__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: @black;
+    text-transform: uppercase;
+}
+
+.modal-work__info {
+    font-size: 18px;
+    color: @gray;
+    text-transform: uppercase;
+}
+
+.modal-work__client {
+    margin-bottom: 33px;
+}
+
+.modal-work__client div {
+    font-size: 16px;
+    font-weight: 700;
+    color: @black;
+}
+
+.modal-work__client span {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: @gray;
+}
+
+.modal-work__text {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+    color: @gray;
+
+    overflow-y: hidden;
+    max-height: 500px;
+
+    margin-right: -55px;
+    margin-bottom: 131px;
+    padding-right: 5px;
+
+    &:hover {
+        overflow-y: auto;
+    }
+}
+
+.modal-work__footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 1.8rem 1rem;
+}
+
+.modal-work__btn {
+    font-size: 14px;
+    color: @black;
+    text-transform: uppercase;
+    font-family: inherit;
+    cursor: pointer;
+
+    background: none;
+    border: 0;
+    padding: 0;
+
+    transition: transform .2s linear;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.modal-work__arrow {
+    width: 8px;
+    height: 21px;
+    margin: -6px 2px;
+}
+
+.modal-work__arrow--left {
+    transform: rotate(180deg);
+}
+
+.modal__content {
+    padding: 5rem 1rem;
+}
+
+.modal__title {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: @black;
+    margin-bottom: 54px;
+}
+
+.modal__subtitle {
+    font-size: 16px;
+    color: @black;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
